@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="keywords" content="Epsom Girls Grammar, EGGS, Epsom Girls Grammar Coding Club, Coding, Coding Club"
+        <meta name="keywords" content="Epsom Girls Grammar, EGGS, Epsom Girls Grammar Coding Club, Coding, Coding Club">
 
-        <meta name="description" content="Epsom Girls Grammar Coding Club"
+        <meta name="description" content="Epsom Girls Grammar Coding Club">
         <meta name="author" content="Rebecca Fitzpatrick">
 
         <title>EGGS Coding Club</title>
 
         <!--to control the formatting-->
+
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/stylesheet.css" rel="stylesheet">
+
 
         <!--javascript plugins-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -40,8 +42,10 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <h1>EGGS Coding Club</h1>
-
+            
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.php">Home</a></li>
+            </ul>
             </div><!-- end navbar-header div-->
             
             <div class="container">
@@ -50,7 +54,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="index.php">Home</a></li>
+                    <!--<li><a href="index.php">Home</a></li>-->
 
                     <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources... <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -81,11 +85,21 @@
             <h1>Welcome to Eggs Coding Club</h1>
 
         <!--footer-->
+        <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
 
+            <div class="container">
+
+                <div class="navbar-text pull-left">
+                    <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="navbar-text pull-right">
+                    Rebecca Fitzpatrick 2021 © (CC BY-NC-SA 4.0)
+                </div> <!-- end of creative commons notice-->
 
         <!--content modal-->
-        
-
+            </div>
+        </div>
 
 
     </body>
